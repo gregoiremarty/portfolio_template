@@ -1,0 +1,119 @@
+.body {
+  background-color: #efefef;
+  color: #262A39;
+  padding: 2vh 12vw 5vh 2vw;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-row: 1 /span 3;
+}
+
+/*@media */
+
+/* 1. MENU LATERAL GAUCHE (top@mobile) */
+
+.nav {
+  position: fixed;
+}
+
+#site-title {
+  color: #262A39;
+  font-weight: 750;
+  font-size: 6.5vmin;
+  letter-spacing: -0.3rem;
+  line-height: 0vh;
+}
+
+/*@media */
+
+#subtitle {
+  color: #262A39;
+  opacity: 0.75;
+  font-size: 1.9vmin;
+  font-weight: 250;
+  text-transform: uppercase;
+  letter-spacing: -0.05vmin;
+  word-spacing: 0.5vmin;
+  line-height: 0vh;
+}
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5vh 0vw 0vh 0vw;
+  font-size: 1.8vmin;
+  font-weight: 200;
+  letter-spacing: 0.3vmin;
+  line-height: 2.5vh;
+  text-transform: uppercase;
+}
+
+/*@media */
+
+  li:hover {
+  font-style: italic;
+  font-weight: 1000;
+}
+
+a {
+  text-decoration: none;
+  color: #262A39;
+}
+
+footer {
+  position: fixed;
+  bottom: 4vh;
+  width: 100%;
+  font-size: 1.35vmin;
+  font-weight: 400;
+  color:#262A39;
+  opacity: 0.35;
+  text-align: left;
+  letter-spacing: -0.05vmin;
+}
+
+/* 1. CONTENU DROITE (bottom@mobile) */
+
+.bio {
+  display: relative;
+  align-items: flex-end;
+  padding-top: 2vh;
+  padding-right: 20%;
+  padding-left: 100%;
+  min-width: 80vmin;
+  font-size: 1.8vmin;
+  letter-spacing: -0.1vmin;
+
+}
+
+#pic {
+  width: 30vmin;
+  height: auto;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 5vh;
+  padding-right: 20%;
+  padding-left: 100%;
+}
+
+/*@media */
+
+.img {
+  display: flex;
+  flex: 2 2 300px;
+  flex-direction: column;
+  overflow: hidden;
+  width: 40vmin;
+  height: 40vmin;
+  background-color: white;
+ }
+
+/*@media */
