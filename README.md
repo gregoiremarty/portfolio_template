@@ -4,6 +4,8 @@ A simple, lightweight, low tech gallery / portfolio for photographer, designers,
 
 Designed to be easy to custom & code even for newbies :)
 
+[Click here to access the demo](https://gregoiremarty.github.io/portfolio_template/).
+
 ## HOW TO USE
 ##### BIO
 * write your bio in the *index.html* file
