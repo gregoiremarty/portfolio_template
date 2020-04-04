@@ -17,11 +17,12 @@ Designed to be easy to custom & code even for newbies :)
 * you can add other social links with a simple copy&paste in *index.html* and the *gallery_.html*
 
 ### VERSION
-1.0 - *31.03.2020*
+1.01 - *04.04.2020* => updated the gallery to a more responsive layout using *flex* display
+1.00 - *31.03.2020*
 
 ### UPDATES TO COME
 
-* more responsive design
+* more responsive design of the menu for small screens and smartphones
 * auto load gallery from a folder
 
 ---

@@ -74,15 +74,11 @@ footer {
 /* 1. CONTENU DROITE (bottom@mobile) */
 
 .bio {
-  display: relative;
-  align-items: flex-end;
   padding-top: 2vh;
   padding-right: 20%;
-  padding-left: 100%;
-  min-width: 80vmin;
-  font-size: 1.8vmin;
+  padding-left: 30%;
+  max-width: 90%;
   letter-spacing: -0.1vmin;
-
 }
 
 #pic {
@@ -102,7 +98,8 @@ footer {
   overflow: hidden;
   width: 25rem;
   height: auto;
-  padding: 10px;
+  margin: 10px;
+  background: white;
  }
 
 /*@media */
